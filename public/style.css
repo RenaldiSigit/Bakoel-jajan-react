@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header.header {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a9a9a9;
+}
+.header .logo img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.header .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+nav.navbar {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+nav.navbar a {
+  color: #9d6320;
+  text-decoration: none;
+}
+
+header.header .icon {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+header.header .icon a {
+  text-decoration: none;
+  color: black;
+}
+section.home {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("images/bahankue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.home .content {
+  width: 850px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.home .content h3 {
+  font-size: 3rem;
+}
+section.home .content span {
+  font-size: 3rem;
+}
+section.home .content a.btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+section.about h1.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: rgba(225, 51, 153, 0.05);
+}
+section.about .heading span {
+  color: #9d620a;
+}
+section.about .row {
+  display: flex;
+  flex-direction: row;
+}
+section.about .row .img-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+}
+section.about .row .img-container img {
+  margin: 15px;
+  border-radius: 30px;
+}
+section.about .row .img-container h3 {
+  text-align: center;
+}
+section.about .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+section.about .row .content h3 {
+  font-size: 2.5rem;
+}
+section.about .row .content p {
+  font-size: 1rem;
+  color: #999;
+}
+section.about .row .content a.btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+section.products {
+  height: 450px;
+}
+section.products h1.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: rgba(225, 51, 153, 0.05);
+}
+section.products .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+}
+section.products .box-container img {
+  height: 300px;
+  width: 300px;
+}
+
+section.products .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: #9d620a;
+}
